@@ -18,8 +18,8 @@ There are 3 types of oral cells:
    - folder name: 'nonCancerOral'
 
 These 3 categories of data are split into validation and testing sets, which are located in:
-1. Validation set folder: [oral cancer 0521-0618_tag300_Val](https://www.kaggle.com/datasets/janehsieh/oral-cancer-cells-with-chemoresistance-in-vitro)
-2. Testing set folder: [oral cancer 0521-0618_tag300_Test](https://www.kaggle.com/datasets/janehsieh/oral-cancer-cells-with-chemoresistance-in-vitro)
+1. Validation set folder: [oral cancer 0521-0618_tag300_Val]([https://www.kaggle.com/datasets/janehsieh/oral-cancer-cells-with-chemoresistance-in-vitro](https://www.kaggle.com/datasets/janehsieh/oral-cancer-cells-with-chemoresistance-in-vitro))
+2. Testing set folder: [oral cancer 0521-0618_tag300_Test]([https://www.kaggle.com/datasets/janehsieh/oral-cancer-cells-with-chemoresistance-in-vitro](https://www.kaggle.com/datasets/janehsieh/oral-cancer-cells-with-chemoresistance-in-vitro))
 
 ![Fig 1. Three classes of cells (with labeling), named as HOMO data. Each
 class has equally 300 images. Notice that the morphological features of three classes of
