@@ -16,7 +16,7 @@ with Root Mean Square Error (RMSE) reduced to 0.16 by Ensemble Learning (EL). In
 shapes that are visually challenging to recognize, thus supporting future applications with this automatic approach to image analysis.
 
 # Data
-Due the the large volume of the datasets, it's store in Kaggle repository "[oral cancer cells with chemoresistance in vitro](https://www.kaggle.com/datasets/janehsieh/oral-cancer-cells-with-chemoresistance-in-vitro)."
+Due the the large volume of the datasets, it's stored in Kaggle repository "[oral cancer cells with chemoresistance in vitro](https://www.kaggle.com/datasets/janehsieh/oral-cancer-cells-with-chemoresistance-in-vitro)."
 
 ## HOME dataset
 There are 3 types of oral cells:
