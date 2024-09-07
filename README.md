@@ -35,14 +35,14 @@ These 3 categories of data are split into validation and testing sets, which are
 ## HETERO dataset
 To simulate heterogeneity within tumors, PARENTAL and RESISTANT cells were harvested, mixed in a 1:2, 2:1, 1:3, or 3:1 ratio. The images of mixed cells (i.e., featuring soft labels) were classified as the heterogeneous data set (HETERO).
 There are hence 4 types of mixed oral cells:
-1. PARENTAL : RESISTANT = 1:2
-   - folder name: '20X_TG2-WT1'
-2. PARENTAL : RESISTANT = 2:1
-   - folder name: '20X_TG1-WT2'
-3. PARENTAL : RESISTANT = 1:3
-   - folder name: '20X_TG3-WT1'
-5. PARENTAL : RESISTANT = 3:1
-   - folder name: '20X_TG1-WT3'
+1. PARENTAL : RESISTANT = 1:2 (N=200)
+   - folder name: '20X_TG2-WT1'  
+2. PARENTAL : RESISTANT = 2:1 (N=200)  
+   - folder name: '20X_TG1-WT2'  
+3. PARENTAL : RESISTANT = 1:3 (N=200)  
+   - folder name: '20X_TG3-WT1'  
+5. PARENTAL : RESISTANT = 3:1 (N=200)  
+   - folder name: '20X_TG1-WT3'  
   
 These 4 categories of data are split into validation and testing sets, which are located in:
 1. Validation set folder: [oral cancer inter stage-all_tag300_Val](https://www.kaggle.com/datasets/janehsieh/oral-cancer-cells-with-chemoresistance-in-vitro)
