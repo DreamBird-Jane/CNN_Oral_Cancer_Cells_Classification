@@ -32,6 +32,21 @@ Due the the large volume of the datasets, it's store in Kaggle repository "[oral
 
 # Codes
 ## Three-class classification results of oral cancer cells
+Refer to folder "[Oral cancer three-class classification with SoftLabels (True Final 4 INTER)](https://github.com/DreamBird-Jane/CNN_Oral_Cancer_Cells_Classification/tree/main/Oral%20cancer%20three-class%20classification%20with%20SoftLabels%20(True%20Final%204%20INTER))."
+
+There are 5 models for CNN classification with soft labels:
+1. M1. Only the HOMO data set was used for model training.
+   - [S-All_Image_Multi-Class_Classification_TestOut_K-foldCV_SoftLabels_20240624(oral)_M1.ipynb](https://github.com/DreamBird-Jane/CNN_Oral_Cancer_Cells_Classification/blob/main/Oral%20cancer%20three-class%20classification%20with%20SoftLabels%20(True%20Final%204%20INTER)/S-All_Image_Multi-Class_Classification_TestOut_K-foldCV_SoftLabels_20240624(oral)_M1.ipynb)
+2. M2. Both the HOMO and the HETERO data sets were used for model training.
+   - [S-All_Image_Multi-Class_Classification_TestOut_K-foldCV_SoftLabels_20240624(oral)_M2.ipynb](https://github.com/DreamBird-Jane/CNN_Oral_Cancer_Cells_Classification/blob/main/Oral%20cancer%20three-class%20classification%20with%20SoftLabels%20(True%20Final%204%20INTER)/S-All_Image_Multi-Class_Classification_TestOut_K-foldCV_SoftLabels_20240624(oral)_M2.ipynb)
+3. M3. Both the HOME and the HETERO data sets were used. For the HETERO data set, we additionally performed Borderline-SMOTE to generate more synthetic HETERO data for model training.
+   - [S-All_Image_Multi-Class_Classification_TestOut_K-foldCV_SoftLabels_20240624(oral)_M3.ipynb](https://github.com/DreamBird-Jane/CNN_Oral_Cancer_Cells_Classification/blob/main/Oral%20cancer%20three-class%20classification%20with%20SoftLabels%20(True%20Final%204%20INTER)/S-All_Image_Multi-Class_Classification_TestOut_K-foldCV_SoftLabels_20240624(oral)_M3.ipynb)
+4. M4. Both the HOME and the HETERO data sets were used. For the HETERO data set, we additionally performed Random OS to generate more HETERO data for model training.
+   - [S-All_Image_Multi-Class_Classification_TestOut_K-foldCV_SoftLabels_20240624(oral)_M4.ipynb](https://github.com/DreamBird-Jane/CNN_Oral_Cancer_Cells_Classification/blob/main/Oral%20cancer%20three-class%20classification%20with%20SoftLabels%20(True%20Final%204%20INTER)/S-All_Image_Multi-Class_Classification_TestOut_K-foldCV_SoftLabels_20240624(oral)_M4.ipynb)
+5. M5. Both the HOME and the HETERO data sets were used. Additionally, we performed the ENN-DS method to delete some ambiguous cell images in HETERO data set first and then used the Random OS to generate more HETERO data.
+   - [S-All_Image_Multi-Class_Classification_TestOut_K-foldCV_SoftLabels_20240624(oral)_M5.ipynb](https://github.com/DreamBird-Jane/CNN_Oral_Cancer_Cells_Classification/blob/main/Oral%20cancer%20three-class%20classification%20with%20SoftLabels%20(True%20Final%204%20INTER)/S-All_Image_Multi-Class_Classification_TestOut_K-foldCV_SoftLabels_20240624(oral)_M5.ipynb)
+
+   
 
 
 ## Grad-CAM Visualization
