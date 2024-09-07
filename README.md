@@ -89,8 +89,7 @@ Any medical image (in .tiff format) from out HOMO test sets
 ### Output
 It specifically generates 3 kinds of pictures per medical image:
 1. GradCAM <img src="https://github.com/DreamBird-Jane/CNN_Oral_Cancer_Cells_Classification/blob/main/attachments/control_Oral17-%20GradCAM-%20correct%20prediction.png" alt="GradCAM" width="500"/>
-2. Guided Backprop
-![Guided Backprop]() <img src="https://github.com/DreamBird-Jane/CNN_Oral_Cancer_Cells_Classification/blob/main/attachments/control_Oral17-%20Guided%20Backprop.png" alt="Guided Backprop" width="500"/>
+2. Guided Backprop <img src="https://github.com/DreamBird-Jane/CNN_Oral_Cancer_Cells_Classification/blob/main/attachments/control_Oral17-%20Guided%20Backprop.png" alt="Guided Backprop" width="500"/>
 1. Guided GradCAM <img src="https://github.com/DreamBird-Jane/CNN_Oral_Cancer_Cells_Classification/blob/main/attachments/control_Oral17-%20Guided%20GradCAM-%20correct%20prediction.png" alt="Guided GradCAM" width="500"/>
 
 
