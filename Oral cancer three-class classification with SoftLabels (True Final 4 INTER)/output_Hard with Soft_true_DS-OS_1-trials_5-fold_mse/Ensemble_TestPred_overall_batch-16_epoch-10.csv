@@ -1,0 +1,4 @@
+accuracy,precision_macro,recall_macro,f1-score_macro,AUC_macro,precision_weighted,recall_weighted,f1-score_weighted,AUC_weighted,RMSE_INTER,ensemble,Trial
+1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.1592265256892077,simple,0
+1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.1589287339343159,weighted_acc,0
+1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.1589276420486843,weighted_f1,0

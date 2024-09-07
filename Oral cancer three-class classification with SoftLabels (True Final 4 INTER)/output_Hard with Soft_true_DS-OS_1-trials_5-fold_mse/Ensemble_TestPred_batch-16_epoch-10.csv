@@ -1,0 +1,10 @@
+,pred_n_control,pred_n_5nMTG,pred_n_NonCancerOral,true_n,precision_OVR,recall_OVR,f1_OVR,AUC_OVR,f_cases_0,f_cases_1,ensemble,Trial
+control,60,0,0,60,1.0,1.0,1.0,1.0,[],[],simple,0
+5nMTG,0,60,0,60,1.0,1.0,1.0,1.0,[],[],simple,0
+NonCancerOral,0,0,60,60,1.0,1.0,1.0,1.0,[],[],simple,0
+control,60,0,0,60,1.0,1.0,1.0,1.0,[],[],weighted_acc,0
+5nMTG,0,60,0,60,1.0,1.0,1.0,1.0,[],[],weighted_acc,0
+NonCancerOral,0,0,60,60,1.0,1.0,1.0,1.0,[],[],weighted_acc,0
+control,60,0,0,60,1.0,1.0,1.0,1.0,[],[],weighted_f1,0
+5nMTG,0,60,0,60,1.0,1.0,1.0,1.0,[],[],weighted_f1,0
+NonCancerOral,0,0,60,60,1.0,1.0,1.0,1.0,[],[],weighted_f1,0

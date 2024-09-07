@@ -1,0 +1,95 @@
+Folder:	output_Hard with Soft_true_DS-OS_1-trials_5-fold_mse
+Mean of val:
+ accuracy            98.33
+recall_macro        98.33
+precision_macro     98.45
+f1-score_macro      98.33
+AUC_macro           99.88
+K-fold             200.00
+Name: (val, 0), dtype: float64
+SE of val:
+ accuracy             1.81
+recall_macro         1.81
+precision_macro      1.65
+f1-score_macro       1.82
+AUC_macro            0.20
+K-fold             158.11
+Name: (val, 0), dtype: float64
+Mean of test:
+ accuracy            99.00
+recall_macro        99.00
+precision_macro     99.05
+f1-score_macro      99.00
+AUC_macro          100.00
+K-fold             200.00
+Name: (test, 0), dtype: float64
+SE of test:
+ accuracy             1.07
+recall_macro         1.07
+precision_macro      0.98
+f1-score_macro       1.07
+AUC_macro            0.00
+K-fold             158.11
+Name: (test, 0), dtype: float64
+RMSE_val     0.2182
+RMSE_test    0.1915
+Name: 0, dtype: float64
+RMSE_val     0.0123
+RMSE_test    0.0235
+Name: 0, dtype: float64
+Mean of val:
+             Pr_control  Pr_5nMTG  Pr_NonCancerOral
+INTER_type                                        
+0                56.38     40.46              3.16
+1                38.78     55.88              5.34
+2                57.65     37.37              4.98
+3                23.88     72.71              3.41
+SE of val:
+             Pr_control  Pr_5nMTG  Pr_NonCancerOral
+INTER_type                                        
+0                 4.32      4.75              0.72
+1                 5.75      5.72              0.58
+2                 7.66      6.86              1.04
+3                 2.29      2.66              0.57
+Mean of test:
+             Pr_control  Pr_5nMTG  Pr_NonCancerOral
+INTER_type                                        
+0                61.68     35.34              2.98
+1                35.80     58.93              5.26
+2                56.68     37.83              5.49
+3                24.86     71.52              3.62
+SE of test:
+             Pr_control  Pr_5nMTG  Pr_NonCancerOral
+INTER_type                                        
+0                 6.45      6.50              0.42
+1                 4.98      4.90              0.95
+2                 6.41      6.07              0.91
+3                 3.49      3.82              0.75
+Mean of val:
+             C0>C1  C0<C1
+INTER_type              
+0           67.10  32.90
+1           16.88  83.12
+2           78.75  21.25
+3            3.64  96.36
+SE of val:
+             C0>C1  C0<C1
+INTER_type              
+0           12.37  12.37
+1           17.62  17.62
+2           15.37  15.37
+3            2.54   2.54
+Mean of test:
+             C0>C1  C0<C1
+INTER_type              
+0           84.10  15.90
+1           11.00  89.00
+2           80.50  19.50
+3            3.41  96.59
+SE of test:
+             C0>C1  C0<C1
+INTER_type              
+0           10.63  10.63
+1           12.94  12.94
+2           18.74  18.74
+3            2.78   2.78
