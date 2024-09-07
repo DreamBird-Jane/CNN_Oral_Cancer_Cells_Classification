@@ -19,9 +19,37 @@ shapes that are visually challenging to recognize, thus supporting future applic
 Due the the large volume of the datasets, it's store in Kaggle repository "[oral cancer cells with chemoresistance in vitro](https://www.kaggle.com/datasets/janehsieh/oral-cancer-cells-with-chemoresistance-in-vitro)."
 
 ## HOME dataset
+There are 3 types of oral cells:
+1. Oral cancer cells: untreated OECM1 cells (“PARENTAL”), N=300.
+   - folder name: 'control' (do not mis-understand it with normal oral cells)
+2. Chemoresistant oral cancer cells::, chemoresistant OECM1 cells (“RESISTANT”), N=300.
+   - folder name: '5nMTG'
+3. Normal oral cells: normal oral keratinocytes (“CONTROL”), N=300.
+   - folder name: 'nonCancerOral'
 
+These 3 categories of data are split into validation and testing sets, which are located in:
+1. Validation set folder: [oral cancer 0521-0618_tag300_Val(](https://www.kaggle.com/datasets/janehsieh/oral-cancer-cells-with-chemoresistance-in-vitro)
+2. Testing set folder: [oral cancer 0521-0618_tag300_Test](https://www.kaggle.com/datasets/janehsieh/oral-cancer-cells-with-chemoresistance-in-vitro)
+
+   
 ## HETERO dataset
+To simulate heterogeneity within tumors, PARENTAL and RESISTANT cells were harvested, mixed in a 1:2, 2:1, 1:3, or 3:1 ratio. The images of mixed cells (i.e., featuring soft labels) were classified as the heterogeneous data set (HETERO).
+There are hence 4 types of mixed oral cells:
+1. PARENTAL : RESISTANT = 1:2
+   - folder name: '20X_TG2-WT1'
+2. PARENTAL : RESISTANT = 2:1
+   - folder name: '20X_TG1-WT2'
+3. PARENTAL : RESISTANT = 1:3
+   - folder name: '20X_TG3-WT1'
+5. PARENTAL : RESISTANT = 3:1
+   - folder name: '20X_TG1-WT3'
+  
+These 4 categories of data are split into validation and testing sets, which are located in:
+1. Validation set folder: [oral cancer inter stage-all_tag300_Val](https://www.kaggle.com/datasets/janehsieh/oral-cancer-cells-with-chemoresistance-in-vitro)
+2. Testing set folder: [oral cancer inter stage-all_tag300_Test](https://www.kaggle.com/datasets/janehsieh/oral-cancer-cells-with-chemoresistance-in-vitro)
 
+
+200 images of each ratio were collected, resulting in a total of 800 images. 
 
 # Codes
 ## Model Training: Three-class classification results of oral cancer cells
