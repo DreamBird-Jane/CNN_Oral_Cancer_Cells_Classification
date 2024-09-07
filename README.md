@@ -8,7 +8,7 @@ Cell shape reflects the spatial configuration resulting from the equilibrium of 
 # Data
 Due the the large volume of the datasets, it's stored in Kaggle repository "[oral cancer cells with chemoresistance in vitro](https://www.kaggle.com/datasets/janehsieh/oral-cancer-cells-with-chemoresistance-in-vitro)."
 
-## HOME dataset
+## I. HOME dataset
 There are 3 types of oral cells:
 1. Oral cancer cells: untreated OECM1 cells (“PARENTAL”), N=300.
    - folder name: 'control' (do not mis-understand it with normal oral cells)
@@ -25,7 +25,7 @@ These 3 categories of data are split into validation and testing sets, which are
 class has equally 300 images. Notice that the morphological features of three classes of
 cells have only subtle differences that the expert might be able to distinguish.](https://github.com/DreamBird-Jane/CNN_Oral_Cancer_Cells_Classification/blob/main/attachments/Fig1.png)
    
-## HETERO dataset
+## II. HETERO dataset
 To simulate heterogeneity within tumors, PARENTAL and RESISTANT cells were harvested, mixed in a 1:2, 2:1, 1:3, or 3:1 ratio. The images of mixed cells (i.e., featuring soft labels) were classified as the heterogeneous data set (HETERO).
 There are hence 4 types of mixed oral cells:
 1. PARENTAL : RESISTANT = 1:2 (N=200)
@@ -45,7 +45,7 @@ These 4 categories of data are split into validation and testing sets, which are
 200 images of each ratio were collected, resulting in a total of 800 images. 
 
 # Codes
-## Model Training: Three-class classification results of oral cancer cells
+## I. Model Training: Three-class classification results of oral cancer cells
 Refer to folder "[Oral cancer three-class classification with SoftLabels (True Final 4 INTER)](https://github.com/DreamBird-Jane/CNN_Oral_Cancer_Cells_Classification/tree/main/Oral%20cancer%20three-class%20classification%20with%20SoftLabels%20(True%20Final%204%20INTER))."
 
 There are 5 models for CNN classification with soft labels:
@@ -66,7 +66,7 @@ In addition, there are two subsequent Python files for summarizing the model tra
 2. Deriving ensembling results for testing sets: [S3-1_Result_Ensemble_Learning_20240630.py](https://github.com/DreamBird-Jane/CNN_Oral_Cancer_Cells_Classification/blob/main/Oral%20cancer%20three-class%20classification%20with%20SoftLabels%20(True%20Final%204%20INTER)/S3-1_Result_Ensemble_Learning_20240630.py)
 
 
-## Grad-CAM Visualization
+## II. Grad-CAM Visualization
 The Grad-CAM results were used as a visual explanation to reveal how deep learning algorithms make decisions, aiming to elucidate the interpretability of our results in the context of chemoresistant oral cell morphology.
 
 The codes to generate Grad-CAM pictures can be found in folder "[Grad-CAM](https://github.com/DreamBird-Jane/CNN_Oral_Cancer_Cells_Classification/tree/main/Grad-CAM)."
