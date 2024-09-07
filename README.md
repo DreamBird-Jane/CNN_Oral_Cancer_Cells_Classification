@@ -31,6 +31,9 @@ These 3 categories of data are split into validation and testing sets, which are
 1. Validation set folder: [oral cancer 0521-0618_tag300_Val(](https://www.kaggle.com/datasets/janehsieh/oral-cancer-cells-with-chemoresistance-in-vitro)
 2. Testing set folder: [oral cancer 0521-0618_tag300_Test](https://www.kaggle.com/datasets/janehsieh/oral-cancer-cells-with-chemoresistance-in-vitro)
 
+![Fig 1. Three classes of cells (with labeling), named as HOMO data. Each
+class has equally 300 images. Notice that the morphological features of three classes of
+cells have only subtle differences that the expert might be able to distinguish.](https://github.com/DreamBird-Jane/CNN_Oral_Cancer_Cells_Classification/blob/main/attachments/Fig1.png)
    
 ## HETERO dataset
 To simulate heterogeneity within tumors, PARENTAL and RESISTANT cells were harvested, mixed in a 1:2, 2:1, 1:3, or 3:1 ratio. The images of mixed cells (i.e., featuring soft labels) were classified as the heterogeneous data set (HETERO).
