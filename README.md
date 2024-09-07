@@ -95,3 +95,8 @@ It specifically generates 3 kinds of pictures per medical image:
 1. Guided GradCAM
 ![Guided GradCAM](https://github.com/DreamBird-Jane/CNN_Oral_Cancer_Cells_Classification/blob/main/attachments/control_Oral17-%20Guided%20GradCAM-%20correct%20prediction.png)
 
+<p align="center">
+  <img src="[url_of_image_1](https://github.com/DreamBird-Jane/CNN_Oral_Cancer_Cells_Classification/blob/main/attachments/control_Oral17-%20GradCAM-%20correct%20prediction.png)" width="30%" />
+  <img src="[url_of_image_2](https://github.com/DreamBird-Jane/CNN_Oral_Cancer_Cells_Classification/blob/main/attachments/control_Oral17-%20Guided%20Backprop.png)" width="30%" />
+  <img src="[url_of_image_3](https://github.com/DreamBird-Jane/CNN_Oral_Cancer_Cells_Classification/blob/main/attachments/control_Oral17-%20Guided%20GradCAM-%20correct%20prediction.png)" width="30%" />
+</p>
